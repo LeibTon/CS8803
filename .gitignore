@@ -1,0 +1,5 @@
+node_modules/
+# participant data never goes in git
+data/
+*.csv
+*-S-*.json

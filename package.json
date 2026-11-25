@@ -1,0 +1,14 @@
+{
+  "name": "semantic-network-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static web app + data pipeline for the AIE semantic-network transfer study.",
+  "scripts": {
+    "serve": "npx --yes http-server docs -p 8080 -c-1",
+    "verify-keys": "node analysis/score.mjs --verify",
+    "params": "node analysis/params.mjs",
+    "score": "node analysis/score.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
